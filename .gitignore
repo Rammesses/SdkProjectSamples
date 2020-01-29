@@ -1,0 +1,70 @@
+#Autosave files
+*~
+
+#build
+[Oo]bj/
+[Bb]in/
+TestResults/
+.vs
+
+
+# NuGet Packages
+*.nupkg
+*.nuspec
+VERSION.txt.out
+SolutionInfo.cs
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Joel's Pack'N'Publish area
+**/*.NuGetPackage/Package/*
+
+# NCover bolt.
+**/*.boltdata
+
+# NCrunch (for now).
+*.ncrunchproject
+*.ncrunchsolution
+
+# globs
+*.orig
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+
+#Mac bundle stuff
+*.dmg
+*.app
+
+#resharper
+*_Resharper.*
+*.Resharper
+
+#dotCover
+*.dotCover
+/.sonar
+/sonar-project.properties
+/Fundamentals/SonarQube
+/Fundamentals/Landmark.Fundamentals.Tests/TestData/~$EmailAddressTestCases.xlsx
+/_NCrunch_Landmark.Fundamentals/StoredText
