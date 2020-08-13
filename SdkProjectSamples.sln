@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreConsole", "NetCoreCo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWeb", "NetCoreWeb\NetCoreWeb.csproj", "{0BD7931E-7A6B-4085-B2E3-9670EBE2061A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxLibrary", "NetFxLibrary\NetFxLibrary.csproj", "{B402621E-5923-49BA-AE33-A5721B6E9B84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFxLibrary", "NetFxLibrary\NetFxLibrary.csproj", "{B402621E-5923-49BA-AE33-A5721B6E9B84}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreLibrary", "NetCoreLibrary\NetCoreLibrary.csproj", "{0065E33F-6894-4ABD-A120-B3C934261E12}"
 EndProject
@@ -25,17 +25,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandardLibrary", "NetSt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandardTests", "NetStandardTests\NetStandardTests.csproj", "{F6CD52FA-FDCD-4331-8753-85AF121D907E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxConsole", "NetFxConsole\NetFxConsole.csproj", "{7D52C23C-C125-46DA-BD9D-7A6CDC67001C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFxConsole", "NetFxConsole\NetFxConsole.csproj", "{7D52C23C-C125-46DA-BD9D-7A6CDC67001C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFxWeb", "NetFxWeb\NetFxWeb.csproj", "{7F03439E-B487-4A95-B498-CF54185CE2AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxWinForms", "NetFxWinForms\NetFxWinForms.csproj", "{0CEDF8A6-C010-4A6E-BBEE-27F690C36CF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFxWinForms", "NetFxWinForms\NetFxWinForms.csproj", "{0CEDF8A6-C010-4A6E-BBEE-27F690C36CF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWinForms", "NetCoreWinForms\NetCoreWinForms.csproj", "{5F216762-582C-495C-B0F1-98101BECBE28}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWinForms", "NetCoreWinForms\NetCoreWinForms.csproj", "{5F216762-582C-495C-B0F1-98101BECBE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreWPF", "NetCoreWPF\NetCoreWPF.csproj", "{5066ED8B-47CE-4CDD-86C6-51D1F0182305}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCoreWPF", "NetCoreWPF\NetCoreWPF.csproj", "{5066ED8B-47CE-4CDD-86C6-51D1F0182305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetFxWpf", "NetFxWpf\NetFxWpf.csproj", "{6FEA5545-1656-48CD-B91C-5865C0F9BF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetFxWpf", "NetFxWpf\NetFxWpf.csproj", "{6FEA5545-1656-48CD-B91C-5865C0F9BF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreFunctions", "NetCoreFunctions\NetCoreFunctions.csproj", "{E50B51E5-91CE-4066-939B-8235D86FE2E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{6FEA5545-1656-48CD-B91C-5865C0F9BF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FEA5545-1656-48CD-B91C-5865C0F9BF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FEA5545-1656-48CD-B91C-5865C0F9BF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50B51E5-91CE-4066-939B-8235D86FE2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50B51E5-91CE-4066-939B-8235D86FE2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50B51E5-91CE-4066-939B-8235D86FE2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50B51E5-91CE-4066-939B-8235D86FE2E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{5F216762-582C-495C-B0F1-98101BECBE28} = {35AA22E3-B6A4-4B44-B1DB-334A85841224}
 		{5066ED8B-47CE-4CDD-86C6-51D1F0182305} = {35AA22E3-B6A4-4B44-B1DB-334A85841224}
 		{6FEA5545-1656-48CD-B91C-5865C0F9BF72} = {58FA9890-CA3B-4268-BF85-149C06AB525E}
+		{E50B51E5-91CE-4066-939B-8235D86FE2E3} = {35AA22E3-B6A4-4B44-B1DB-334A85841224}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B6EBF271-48BF-4025-ABC0-65671F701FDA}
